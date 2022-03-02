@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.title {
+    display: inline-block;
+    margin: 10px auto;
+    font-family: 'Charm', 'cursive';
+}
+
+.dfleks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.colorehite {
+    color: #fff;
+}
+
+.content {
+    padding: 15px;
+    background-color: rgb(16, 39, 245);
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Charm', 'cursive';
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* =================================global stiles end ====== */
+
+
+/* bgimg-img-style */
+
+.section-img {
+    width: 1800px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-mg-1{
+    background-image: url("https://picsum.photos/1800/800?random=1");
+}
+.bg-mg-2{
+    background-image: url("https://picsum.photos/1800/800?random=2");
+}
+.bg-mg-3{
+    background-image: url("https://picsum.photos/1800/800?random=3");
+}
+
+.bg-mg-4{
+    background-image: url("https://picsum.photos/1800/800?random=4");
+}
+
+.bg-mg-5{
+    background-image: url("https://picsum.photos/1800/800?random=5");
+}
+
+.bg-mg-6{
+    background-image: url("https://picsum.photos/1800/800?random=1");
+}
+/* bgimg-img-style end */
+/* section-text */
+.section-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 20px;
+}
+
+.bggrin {
+    color: #fff;
+    background-color: rgb(16, 16, 211);
+}
+
+/* section-text end*/
+
+/* @media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+
+    .montain{
+        background-image: url(./img/montain.jpg);
+    }
+} */
